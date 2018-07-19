@@ -12,6 +12,7 @@ class MockHelloService extends Mock implements HelloService{
 void main() {
   testWidgets('Prints Hello Message', (WidgetTester tester) async {
 
+    //  Use mockito to create a greeting service and have it say Hi From the Integration test
     HelloService service = new MockHelloService();
     when(service.getMessage()).thenReturn(Future.value("Hello From Integration Test"));
 
