@@ -1,6 +1,6 @@
 # training_flutter_integration
 
-A new Flutter application.
+Simple project demonstrating using Flutter widget testing as well as Mockito to validate the behaviour of Flutter UIs.
 
 ## Getting Started
 
